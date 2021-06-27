@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cardview_dark_background"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/popularImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:layout_margin="2dp"
+        android:src="@drawable/placeholder"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/video"
+        android:layout_gravity="center"/>
+
+    <ImageButton
+        android:id="@+id/popularButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/delete"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="4dp"/>
+
+</FrameLayout>
